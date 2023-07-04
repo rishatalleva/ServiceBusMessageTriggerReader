@@ -1,0 +1,12 @@
+{
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      }
+    }
+  },
+  "ServiceBusConnectionString": "Endpoint=sb://int-abs-bus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=9B5RQ7/jfZYFWYep0VcrHbTlK1bDxD/Q1+ASbHyOehU="
+}

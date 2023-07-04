@@ -1,0 +1,17 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "ServiceBusConnectionString": "Endpoint=sb://stg-abs-bus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=c5z5Bed6cXblyBr6vzsbKwTzCDroI8EyY7g0X+v0q+s=",
+    "AuthUrl": "https://app-authorization-int-centralus-001.azurewebsites.net/auth/login/emr/",
+    "16": "https://app-emr-rest-api-012.helloalleva.com/v1/",
+    "AuthUsername": "allevadev",
+    "AuthPassword": "Test@1234",
+    "SubscriptionName": "allevaentitiessubscription",
+    "TopicName": "allevaentities",
+    "BillingApiUrl": "https://stg-abs-core-api.azurewebsites.net/api/v1/",
+    "EmrDbConnectionString": "Server=allevastaging.database.windows.net,1433;User Id=allevaadmin;Initial Catalog=developmentMaster",
+    "EmrDbPassword": "Alleva-C0rp#"
+  }
+}
